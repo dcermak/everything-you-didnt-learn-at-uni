@@ -64,17 +64,96 @@ you have to deal with *people*
 * Working with people
 
 #+ATTR_REVEAL: :frag (appear)
-- their motivation != your motivation
-- their employer != your employer
-- their culture != your culture
+- their motivation \neq your motivation
+- their employer \ne your employer
+- their culture \ne your culture
 - volunteers, paid contributors, students, etc.
 
+
+** Motivations for contributing
+#+begin_notes
+Reciprocity – duty to give back
+Kinship - do it for the community
+Own-Use - scratch your own itch
+
+why think about this? \Rightarrow helps understand contributors & "lever to make them do
+things"
+
+motivations from https://arxiv.org/abs/2101.10291, "fun facts":
+- women ~3x more likely out of reciprocity
+- coders 4x more likely for fun
+- experienced much more likely out of altruism & ideology than non-experienced
+
+change over time:
+- own use & ideology \downarrow
+- Fun, Kinship, Reciprocity \uparrow (double)
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+1. Ideology
+2. Altruism
+3. Fun
+4. Kinship
+5. Reputation
+6. Reciprocity
+7. Learning
+8. Own-Use
+9. Career
+10. Pay
+
+
 ** How to communicate
+#+begin_notes
+- keep backgrounds of others in mind
+- assume best intentions
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+- asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
+- synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
+- issue/bug/feature tracker(s)
 
 #+ATTR_REVEAL: :frag appear
-- assume best intentions
+- @@html:<i class="fa-solid fa-exclamation"></i>@@ avoid ambiguities
+
+#+ATTR_REVEAL: :frag appear
+#+begin_quote
+Yeah, right
+#+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+- keep it simple
 - be kind to each other
-- asynchronous
+
+
+** Dealing with feedback
+
+#+begin_notes
+- you don't have to address every feedback that you receive
+#+end_notes
+#+ATTR_REVEAL: :frag (appear)
+- you will mostly get negative feedback, if *at all*
+- only negative feedback can be crushing
+- must train to not be personally bothered
+
+
+** Providing feedback
+
+#+ATTR_REVEAL: :frag (appear)
+- criticize the code, not the person
+- be constructive
+- be positive
+- a thank you never hurt anyone
+
+
+** Proposing Changes
+
+#+ATTR_REVEAL: :frag (appear)
+- start small
+- have a vision
+- battle versus inertia
+- address fears of all stakeholders
+- get early adopters and early wins
 
 
 ** Conflict Resolution
@@ -86,15 +165,111 @@ you have to deal with *people*
 #+ATTR_REVEAL: :frag appear
 There *will* be conflicts
 
-#+ATTR_REVEAL: :frag appear
+#+ATTR_REVEAL: :frag (appear)
 - resolve quickly to avoid resentment
 - put rules in place
 - get help from a people person!
 
 
-* How to Build a Welcoming Community
+* Community
 
-* One Bad Apple can spoil the Barrel
+#+begin_notes
+- project should make it clear how to contact it & get it touch
+  \Rightarrow landing page, have just very few channels and monitor all of them
+  if someone joins, you as the maintainer must be made aware of that
+- project must *want* contributions
+#+end_notes
+
+- be an enabler and empower your community, don't be a gatekeeper
+- embrace diversity
+
+
+** The Contributor Funnel
+
+#+begin_notes
+- from Mike McQuaid
+- generally how people become maintainers/contributors:
+  user \rightarrow contributor \rightarrow maintainer
+- more contributors? \Rightarrow get more users!
+#+end_notes
+
+@@html:<img src="./media/contributor_funnel.svg"></img>@@
+
+
+** Recruiting contributors
+#+begin_notes
+- [[https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/][study by Mozilla]] about engagement in the community
+- you *must* give contributors a vision \rightarrow they'll return even if the past wasn't great
+  \rightarrow have features/roadmaps ready, encourage ideas, etc
+- onboarding different: past experience highly motivating
+#+end_notes
+@@html:<img src="./media/mozilla_impact_study.png"></img>@@
+
+#+ATTR_REVEAL: :frag (appear)
+- contributors need a vision
+- good onboarding experience encourages further onboarding
+
+#+REVEAL: split
+
+#+begin_notes
+- respond within 48h to PR \Rightarrow very high likelihood of returning
+- respond later than 7d \Rightarrow you are not seeing them ever again
+#+end_notes
+
+@@html:<img src="./media/mozilla_days_to_first_contribution.png" height="350px"/>@@
+
+#+ATTR_REVEAL: :frag (appear)
+- prompt responses boost the chances of a contributor returning
+- suggest another issue to work on
+
+** Retaining contributors
+
+#+begin_notes
+- intrinsic motivation: desire to code just for fun/hobby
+- altruism, including community identification (satisfy need to belong to group)
+- future reward: revenue from selling product, skills, self-marketing, peer recognition
+- personal need: scratch your own itch
+#+end_notes
+#+ATTR_REVEAL: :frag (appear)
+Keep them motivated!
+
+#+ATTR_REVEAL: :frag (appear)
+- intrinsic motivation
+- altruism
+- future rewards
+- personal need
+
+** Build a welcoming community
+
+#+begin_notes
+- codes of conduct are not evil,
+  but don't just stick the [[https://www.contributor-covenant.org/][contributor covenant]] on your project and be done with it
+  \Rightarrow live by the thing
+
+- provide a place for your community to meet & talk
+  \rightarrow nurtures the sense of belonging
+  \rightarrow helps *you*, as all communication needn't go through you
+
+- documented rules & processes prevent hair splitting:
+  - undocumented rules that are just in a "hive-mind" result in contributors getting frustrated
+    \Rightarrow they'll leave soon
+  - if there is a conflict, then you can point to the rules
+  - even better: enforce rules via code
+
+- empower your contributors:
+  - if new people show up, let them take simple issues even if you could solve them in 1/10th of the time
+  - share ownership of your project
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+- enforce a code of conduct
+- provide a place for your community to meet & talk
+- document & enforce processes meticulously
+- be present and friendly
+- empower your contributors
+
+
+** One Bad Apple can spoil the Barrel
 
 #+begin_notes
 - one bad actor can poison your whole community
@@ -108,7 +283,7 @@ There *will* be conflicts
 
 #+ATTR_REVEAL: :frag (appear)
 - you will have to learn to let go & share responsibilities
-- 
+
 
 * How to make your project popular
 
@@ -122,7 +297,20 @@ There *will* be conflicts
 
 #+ATTR_REVEAL: :frag appear
 - stay true to yourself & your motivation
-- 
+- *you* must stay your top priority
+
+
+* So when should I start?
+#+begin_notes
+- you got one shot at a "public launch" \Rightarrow have a great landing page
+#+end_notes
+
+#+ATTR_REVEAL: :frag appear
+*Now*
+
+#+ATTR_REVEAL: :frag appear
+but defer big announcements until it's ready\trade
+
 
 * This all sounds horrible!
 
@@ -131,6 +319,12 @@ It's a lot of fun
 
 #+ATTR_REVEAL: :frag (appear)
 You will learn a lot
+
+* Further Reading
+
+#+ATTR_REVEAL: :frag (appear)
+- [[https://un.curl.dev/][uncurled]] by [[https://daniel.haxx.se/][Daniel Stenberg]]
+- motivations for contributing [[https://arxiv.org/abs/2101.10291][arXiv:2101.10291]]
 
 * Questions?
 
