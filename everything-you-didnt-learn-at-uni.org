@@ -3,7 +3,7 @@
 #+DATE: June 18, 2023
 #+EMAIL: dcermak@suse.com
 #+TITLE: All the Things they didn't teach you at University
-#+SUBTITLE: 
+#+SUBTITLE: How to survive and thrive in Open Source
 
 #+REVEAL_ROOT: ./node_modules/reveal.js/
 #+REVEAL_THEME: simple
@@ -42,22 +42,23 @@ Dan Čermák
 @@html: </div>@@
 
 
-* Tech-Stack
+* Methodology & Tech-Stack
 
-#+ATTR_REVEAL: :frag (appear appear appear appear appear) :frag_idx (1 2 3 4 5)
+#+ATTR_REVEAL: :frag (appear appear appear appear appear appear) :frag_idx (1 2 3 4 5 6)
+- test things properly in staging, but sometimes you have to patch production
+- real infra is held together by @@html: <i class="fa-solid fa-tape"></i>@@ and 🧙
 - =git= is 👑
 - backend: @@html: <i class="fa-brands fa-python"></i>, <i class="fa-brands fa-node-js"></i>, <i class="fa-brands fa-golang"></i>@@
 - frontend: @@html: <i class="fa-brands fa-react"></i>@@
 - enterprise: @@html: <i class="fa-brands fa-java"></i>@@, SAP, Kotlin
-- Database @@html: <i class="fa-solid fa-database"></i>@@: PostgreSQL, SQLite
-
-#+ATTR_REVEAL: :frag (appear) :frag_idx 6
-…this will all change…
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 7
-but one thing will *never* change
+…this will all change…
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 8
+but one thing will *never* change
+
+#+ATTR_REVEAL: :frag (appear) :frag_idx 9
 you have to deal with *people*
 
 
@@ -114,7 +115,7 @@ change over time:
 - issue/bug/feature tracker(s)
 
 #+ATTR_REVEAL: :frag appear
-- @@html:<i class="fa-solid fa-exclamation"></i>@@ avoid ambiguities
+avoid ambiguities!
 
 #+ATTR_REVEAL: :frag appear
 #+begin_quote
@@ -125,64 +126,37 @@ Yeah, right
 - keep it simple
 - be kind to each other
 
-
-** Dealing with feedback
-
-#+begin_notes
-- you don't have to address every feedback that you receive
-#+end_notes
-#+ATTR_REVEAL: :frag (appear)
-- you will mostly get negative feedback, if *at all*
-- only negative feedback can be crushing
-- must train to not be personally bothered
-
-
-** Providing feedback
-
-#+ATTR_REVEAL: :frag (appear)
-- criticize the code, not the person
-- be constructive
-- be positive
-- a thank you never hurt anyone
-
-
-** Proposing Changes
-
-#+ATTR_REVEAL: :frag (appear)
-- start small
-- have a vision
-- battle versus inertia
-- address fears of all stakeholders
-- get early adopters and early wins
-
-
-** Conflict Resolution
+* What it means to be a Maintainer
 
 #+begin_notes
-- more than 1 human \Rightarrow conflicts
+- infra: mailinglist/forum, CI, website
 #+end_notes
-
-#+ATTR_REVEAL: :frag appear
-There *will* be conflicts
 
 #+ATTR_REVEAL: :frag (appear)
-- resolve quickly to avoid resentment
-- put rules in place
-- get help from a people person!
+- you will have to learn to let go & share responsibilities
+- take care of all the "boring" parts:
+  - infra
+  - documentation
+  - onboarding & mentoring
+  - issue triage & patch reviews
+  - funding
+  - moderation
+- licenses/legal
+- project & release management
 
 
-* Community
+** How to make your project popular
 
 #+begin_notes
-- project should make it clear how to contact it & get it touch
-  \Rightarrow landing page, have just very few channels and monitor all of them
-  if someone joins, you as the maintainer must be made aware of that
-- project must *want* contributions
+- become the marketing person
+- be friendly & welcoming
+- be firm in your decisions
 #+end_notes
 
-- be an enabler and empower your community, don't be a gatekeeper
-- embrace diversity
-
+#+ATTR_REVEAL: :frag (appear)
+- build something that people truly need/want
+- marketing: talks, tutorials, evangelizing
+- documentation, documentation, documentation
 
 ** The Contributor Funnel
 
@@ -206,8 +180,10 @@ There *will* be conflicts
 @@html:<img src="./media/mozilla_impact_study.png"></img>@@
 
 #+ATTR_REVEAL: :frag (appear)
+- past impact does *not* matter, perceived future impact *does*
 - contributors need a vision
 - good onboarding experience encourages further onboarding
+
 
 #+REVEAL: split
 
@@ -222,22 +198,31 @@ There *will* be conflicts
 - prompt responses boost the chances of a contributor returning
 - suggest another issue to work on
 
-** Retaining contributors
+
+** Take care of yourself!
+
+#+ATTR_REVEAL: :frag (appear)
+- stay true to yourself & your motivation
+- *you* must stay your top priority
+
+
+* Community
 
 #+begin_notes
-- intrinsic motivation: desire to code just for fun/hobby
-- altruism, including community identification (satisfy need to belong to group)
-- future reward: revenue from selling product, skills, self-marketing, peer recognition
-- personal need: scratch your own itch
+- project should make it clear how to contact it & get it touch
+  \Rightarrow landing page, have just very few channels and monitor all of them
+  if someone joins, you as the maintainer must be made aware of that
+- project must *want* contributions
 #+end_notes
-#+ATTR_REVEAL: :frag (appear)
-Keep them motivated!
 
 #+ATTR_REVEAL: :frag (appear)
-- intrinsic motivation
-- altruism
-- future rewards
-- personal need
+- "just a bunch of people"
+- often no clear joining rules
+
+
+#+ATTR_REVEAL: :frag (appear)
+- be an enabler and empower your community, don't be a gatekeeper
+- embrace diversity
 
 ** Build a welcoming community
 
@@ -268,36 +253,97 @@ Keep them motivated!
 - be present and friendly
 - empower your contributors
 
-
-** One Bad Apple can spoil the Barrel
+** Keeping the Community motivated
 
 #+begin_notes
+- intrinsic motivation: desire to code just for fun/hobby
+- altruism, including community identification (satisfy need to belong to group)
+- future reward: revenue from selling product, skills, self-marketing, peer recognition
+- personal need: scratch your own itch
+#+end_notes
+
+Retaining contributors
+
+@@html: <img src="./media/contribution_movement.svg" height="300px"/>@@
+
+# #+ATTR_REVEAL: :frag (appear)
+# Keep them motivated!
+
+# #+ATTR_REVEAL: :frag (appear)
+# - intrinsic motivation
+# - altruism
+# - future rewards
+# - personal need
+
+# ** Conflict Resolution
+
+# #+begin_notes
+# - more than 1 human \Rightarrow conflicts
+# #+end_notes
+
+# #+ATTR_REVEAL: :frag appear
+
+
+# #+ATTR_REVEAL: :frag (appear)
+# - resolve quickly to avoid resentment
+# - put rules in place
+# - get help from a people person!
+
+** Conflicts - One Bad Apple can spoil the Barrel
+
+#+begin_notes
+- There *will* be conflicts \Rightarrow resolve to avoid resentment/scaring
 - one bad actor can poison your whole community
 #+end_notes
 
+# #+ATTR_REVEAL: :frag (appear)
+There *will* be conflicts
+
 # from https://upload.wikimedia.org/wikipedia/commons/1/1c/Pomological_Watercolor_POM00003995.jpg
 # public domain
+# #+ATTR_REVEAL: :frag (appear)
 @@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px"/>@@
 
-* What it means to be a Maintainer
-
-#+ATTR_REVEAL: :frag (appear)
-- you will have to learn to let go & share responsibilities
-
-
-* How to make your project popular
+** Receiving feedback
 
 #+begin_notes
-- become the marketing person
-- be friendly & welcoming
-- be firm in your decisions
+- every feedback valuable: unique insight from different PoV
+- but most feedback you'll get is terrible or not proper feedback
+- you don't have to address every feedback that you receive
 #+end_notes
+#+ATTR_REVEAL: :frag (appear)
+- feedback is a gift
+- thank, absorb and reflect
+- don't defend yourself, adapt and discuss (if appropriate)
 
-* Take care of yourself!
+#+ATTR_REVEAL: :frag (appear)
+unfortunately:
+#+ATTR_REVEAL: :frag (appear)
+- you will mostly get negative feedback, if *at all*
+- *only* negative feedback can be crushing
+- must train to not be personally bothered
 
-#+ATTR_REVEAL: :frag appear
-- stay true to yourself & your motivation
-- *you* must stay your top priority
+
+** Providing feedback
+
+#+ATTR_REVEAL: :frag (appear)
+- criticize the code, not the person
+- be constructive, clear and fact oriented
+- be positive
+- speak only on your behalf
+
+#+ATTR_REVEAL: :frag (appear)
+a thank you never hurt anyone ❤️
+
+
+** Proposing Changes
+
+#+ATTR_REVEAL: :frag (appear)
+- start small
+- have a vision
+- battle versus inertia
+- address fears of all stakeholders
+- get early adopters and early wins
 
 
 * So when should I start?
@@ -311,7 +357,6 @@ Keep them motivated!
 #+ATTR_REVEAL: :frag appear
 but defer big announcements until it's ready\trade
 
-
 * This all sounds horrible!
 
 #+ATTR_REVEAL: :frag (appear)
@@ -320,11 +365,30 @@ It's a lot of fun
 #+ATTR_REVEAL: :frag (appear)
 You will learn a lot
 
-* Further Reading
+#+ATTR_REVEAL: :frag (appear)
+But only delve into Open Source as long as it is fun
+
+
+* So was that all the things they didn't teach me at University?
+
+#+ATTR_REVEAL: :frag (appear)
+Of course not!
+
+#+ATTR_REVEAL: :frag (appear)
+But it's a starting point for your journey
+
+
+* Links and Further Reading
+
+#+ATTR_REVEAL: :frag (appear)
+@@html:<i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/everything-you-didnt-learn-at-uni/everything-you-didnt-learn-at-uni.html"><code>dcermak.github.io/everything-you-didnt-learn-at-uni</code></a>@@
 
 #+ATTR_REVEAL: :frag (appear)
 - [[https://un.curl.dev/][uncurled]] by [[https://daniel.haxx.se/][Daniel Stenberg]]
 - motivations for contributing [[https://arxiv.org/abs/2101.10291][arXiv:2101.10291]]
+- [[https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/][Measuring Engagement]] from Mozilla
+- [[https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/][The Open Source Contributor Funnel by Mike McQuaid]]
+
 
 * Questions?
 
