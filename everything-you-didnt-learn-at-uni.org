@@ -53,13 +53,13 @@ Dan Čermák
 - enterprise: @@html: <i class="fa-brands fa-java"></i>@@, SAP, Kotlin
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 7
-…some of this will change…
+…some of this will change, some won't…
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 8
 but one thing will *never* change
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 9
-you have to deal with *people*
+you have to work with *people*
 
 
 * Working with People in FLOSS
@@ -83,12 +83,12 @@ you have to deal with *people*
 
 #+ATTR_REVEAL: :frag (appear)
 - "just a bunch of people"
+- have a common goal
 - often no clear joining rules
+- empower others
 
-
-#+ATTR_REVEAL: :frag (appear)
-- be an enabler and empower your community, don't be a gatekeeper
-- embrace diversity
+# - be an enabler and empower your community, don't be a gatekeeper
+# - embrace diversity
 
 ** How to communicate
 #+begin_notes
@@ -100,6 +100,7 @@ you have to deal with *people*
 - asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
 - synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
 - issue/bug/feature tracker(s)
+- *one* place to reach the community
 
 #+ATTR_REVEAL: :frag appear
 avoid ambiguities!
@@ -112,7 +113,6 @@ Yeah, right
 #+ATTR_REVEAL: :frag (appear)
 - keep it simple
 - be kind to each other
-- *one* place to reach the community
 
 
 ** Build a welcoming community
@@ -188,7 +188,7 @@ change over time:
 
 # Retaining contributors
 
-@@html: <img src="./media/contribution_movement.svg" height="400px"/>@@
+@@html: <img src="./media/contribution_movement.svg" height="500px"/>@@
 
 # #+ATTR_REVEAL: :frag (appear)
 # Keep them motivated!
@@ -226,7 +226,7 @@ There *will* be conflicts
 # from https://upload.wikimedia.org/wikipedia/commons/1/1c/Pomological_Watercolor_POM00003995.jpg
 # public domain
 # #+ATTR_REVEAL: :frag (appear)
-@@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px"/>@@
+@@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px" class="fragment appear" data-fragment-index=1/>@@
 
 * What it means to be a Maintainer
 
@@ -277,6 +277,9 @@ There *will* be conflicts
 - you *must* give contributors a vision \rightarrow they'll return even if the past wasn't great
   \rightarrow have features/roadmaps ready, encourage ideas, etc
 - onboarding different: past experience highly motivating
+- respond within 48h to PR \Rightarrow very high likelihood of returning
+- respond later than 7d \Rightarrow you are not seeing them ever again
+- suggest another issue to work on
 #+end_notes
 @@html:<img src="./media/mozilla_impact_study.png"></img>@@
 
@@ -284,20 +287,7 @@ There *will* be conflicts
 - past impact does *not* matter, perceived future impact *does*
 - contributors need a vision
 - good onboarding experience encourages further onboarding
-
-
-#+REVEAL: split
-
-#+begin_notes
-- respond within 48h to PR \Rightarrow very high likelihood of returning
-- respond later than 7d \Rightarrow you are not seeing them ever again
-#+end_notes
-
-@@html:<img src="./media/mozilla_days_to_first_contribution.png" height="350px"/>@@
-
-#+ATTR_REVEAL: :frag (appear)
 - prompt responses boost the chances of a contributor returning
-- suggest another issue to work on
 
 
 ** Take care of yourself!
@@ -305,47 +295,6 @@ There *will* be conflicts
 #+ATTR_REVEAL: :frag (appear)
 - stay true to yourself & your motivation
 - *you* must stay your top priority
-
-** Receiving feedback
-
-#+begin_notes
-- every feedback valuable: unique insight from different PoV
-- but most feedback you'll get is terrible or not proper feedback
-- you don't have to address every feedback that you receive
-#+end_notes
-#+ATTR_REVEAL: :frag (appear)
-- feedback is a gift
-- thank, absorb and reflect
-- don't defend yourself, adapt and discuss (if appropriate)
-
-#+ATTR_REVEAL: :frag (appear)
-unfortunately:
-#+ATTR_REVEAL: :frag (appear)
-- you will mostly get negative feedback, if *at all*
-- *only* negative feedback can be crushing
-- must train to not be personally bothered
-
-
-** Providing feedback
-
-#+ATTR_REVEAL: :frag (appear)
-- criticize the code, not the person
-- be constructive, clear and fact oriented
-- be positive
-- speak only on your behalf
-
-#+ATTR_REVEAL: :frag (appear)
-a thank you never hurt anyone ❤️
-
-
-* Proposing Changes
-
-#+ATTR_REVEAL: :frag (appear)
-- start small
-- have a vision
-- battle versus inertia
-- address fears of all stakeholders
-- get early adopters and early wins
 
 
 * So when should I start?
@@ -395,5 +344,47 @@ But it's a starting point for your journey
 
 * Questions?
 
+@@html: <img src="./media/qr.svg" height="400px"/>@@
+
+
+** Receiving feedback
+
+#+begin_notes
+- every feedback valuable: unique insight from different PoV
+- but most feedback you'll get is terrible or not proper feedback
+- you don't have to address every feedback that you receive
+#+end_notes
 #+ATTR_REVEAL: :frag (appear)
-Answers!
+- feedback is a gift
+- thank, absorb and reflect
+- don't defend yourself, adapt and discuss (if appropriate)
+
+#+ATTR_REVEAL: :frag (appear)
+unfortunately:
+#+ATTR_REVEAL: :frag (appear)
+- you will mostly get negative feedback, if *at all*
+- *only* negative feedback can be crushing
+- must train to not be personally bothered
+
+
+** Providing feedback
+
+#+ATTR_REVEAL: :frag (appear)
+- criticize the code, not the person
+- be constructive, clear and fact oriented
+- be positive
+- speak only on your behalf
+
+#+ATTR_REVEAL: :frag (appear)
+a thank you never hurt anyone ❤️
+
+
+* Proposing Changes
+
+#+ATTR_REVEAL: :frag (appear)
+- start small
+- have a vision
+- battle versus inertia
+- address fears of all stakeholders
+- get early adopters and early wins
+
