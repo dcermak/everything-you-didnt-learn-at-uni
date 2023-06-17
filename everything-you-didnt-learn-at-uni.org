@@ -53,7 +53,7 @@ Dan Čermák
 - enterprise: @@html: <i class="fa-brands fa-java"></i>@@, SAP, Kotlin
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 7
-…this will all change…
+…some of this will change…
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 8
 but one thing will *never* change
@@ -62,13 +62,87 @@ but one thing will *never* change
 you have to deal with *people*
 
 
-* Working with people
+* Working with People in FLOSS
 
 #+ATTR_REVEAL: :frag (appear)
 - their motivation \neq your motivation
 - their employer \ne your employer
 - their culture \ne your culture
+- their timezone \ne your timezone
 - volunteers, paid contributors, students, etc.
+
+
+* Community
+
+#+begin_notes
+- project should make it clear how to contact it & get it touch
+  \Rightarrow landing page, have just very few channels and monitor all of them
+  if someone joins, you as the maintainer must be made aware of that
+- project must *want* contributions
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+- "just a bunch of people"
+- often no clear joining rules
+
+
+#+ATTR_REVEAL: :frag (appear)
+- be an enabler and empower your community, don't be a gatekeeper
+- embrace diversity
+
+** How to communicate
+#+begin_notes
+- keep backgrounds of others in mind
+- assume best intentions
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+- asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
+- synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
+- issue/bug/feature tracker(s)
+
+#+ATTR_REVEAL: :frag appear
+avoid ambiguities!
+
+#+ATTR_REVEAL: :frag appear
+#+begin_quote
+Yeah, right
+#+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+- keep it simple
+- be kind to each other
+- *one* place to reach the community
+
+
+** Build a welcoming community
+
+#+begin_notes
+- codes of conduct are not evil,
+  but don't just stick the [[https://www.contributor-covenant.org/][contributor covenant]] on your project and be done with it
+  \Rightarrow live by the thing
+
+- provide a place for your community to meet & talk
+  \rightarrow nurtures the sense of belonging
+  \rightarrow helps *you*, as all communication needn't go through you
+
+- documented rules & processes prevent hair splitting:
+  - undocumented rules that are just in a "hive-mind" result in contributors getting frustrated
+    \Rightarrow they'll leave soon
+  - if there is a conflict, then you can point to the rules
+  - even better: enforce rules via code
+
+- empower your contributors:
+  - if new people show up, let them take simple issues even if you could solve them in 1/10th of the time
+  - share ownership of your project
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear)
+- enforce a code of conduct
+- provide a place for your community to meet & talk
+- document & enforce processes meticulously
+- be present and friendly
+- empower your contributors
 
 
 ** Motivations for contributing
@@ -103,28 +177,56 @@ change over time:
 10. Pay
 
 
-** How to communicate
+** Keeping the Community motivated
+
 #+begin_notes
-- keep backgrounds of others in mind
-- assume best intentions
+- intrinsic motivation: desire to code just for fun/hobby
+- altruism, including community identification (satisfy need to belong to group)
+- future reward: revenue from selling product, skills, self-marketing, peer recognition
+- personal need: scratch your own itch
 #+end_notes
 
-#+ATTR_REVEAL: :frag (appear)
-- asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
-- synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
-- issue/bug/feature tracker(s)
+# Retaining contributors
 
-#+ATTR_REVEAL: :frag appear
-avoid ambiguities!
+@@html: <img src="./media/contribution_movement.svg" height="400px"/>@@
 
-#+ATTR_REVEAL: :frag appear
-#+begin_quote
-Yeah, right
-#+end_quote
+# #+ATTR_REVEAL: :frag (appear)
+# Keep them motivated!
 
-#+ATTR_REVEAL: :frag (appear)
-- keep it simple
-- be kind to each other
+# #+ATTR_REVEAL: :frag (appear)
+# - intrinsic motivation
+# - altruism
+# - future rewards
+# - personal need
+
+# ** Conflict Resolution
+
+# #+begin_notes
+# - more than 1 human \Rightarrow conflicts
+# #+end_notes
+
+# #+ATTR_REVEAL: :frag appear
+
+
+# #+ATTR_REVEAL: :frag (appear)
+# - resolve quickly to avoid resentment
+# - put rules in place
+# - get help from a people person!
+
+** Conflicts - One Bad Apple can spoil the Barrel
+
+#+begin_notes
+- There *will* be conflicts \Rightarrow resolve to avoid resentment/scaring
+- one bad actor can poison your whole community
+#+end_notes
+
+# #+ATTR_REVEAL: :frag (appear)
+There *will* be conflicts
+
+# from https://upload.wikimedia.org/wikipedia/commons/1/1c/Pomological_Watercolor_POM00003995.jpg
+# public domain
+# #+ATTR_REVEAL: :frag (appear)
+@@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px"/>@@
 
 * What it means to be a Maintainer
 
@@ -169,7 +271,6 @@ Yeah, right
 
 @@html:<img src="./media/contributor_funnel.svg"></img>@@
 
-
 ** Recruiting contributors
 #+begin_notes
 - [[https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/][study by Mozilla]] about engagement in the community
@@ -205,105 +306,6 @@ Yeah, right
 - stay true to yourself & your motivation
 - *you* must stay your top priority
 
-
-* Community
-
-#+begin_notes
-- project should make it clear how to contact it & get it touch
-  \Rightarrow landing page, have just very few channels and monitor all of them
-  if someone joins, you as the maintainer must be made aware of that
-- project must *want* contributions
-#+end_notes
-
-#+ATTR_REVEAL: :frag (appear)
-- "just a bunch of people"
-- often no clear joining rules
-
-
-#+ATTR_REVEAL: :frag (appear)
-- be an enabler and empower your community, don't be a gatekeeper
-- embrace diversity
-
-** Build a welcoming community
-
-#+begin_notes
-- codes of conduct are not evil,
-  but don't just stick the [[https://www.contributor-covenant.org/][contributor covenant]] on your project and be done with it
-  \Rightarrow live by the thing
-
-- provide a place for your community to meet & talk
-  \rightarrow nurtures the sense of belonging
-  \rightarrow helps *you*, as all communication needn't go through you
-
-- documented rules & processes prevent hair splitting:
-  - undocumented rules that are just in a "hive-mind" result in contributors getting frustrated
-    \Rightarrow they'll leave soon
-  - if there is a conflict, then you can point to the rules
-  - even better: enforce rules via code
-
-- empower your contributors:
-  - if new people show up, let them take simple issues even if you could solve them in 1/10th of the time
-  - share ownership of your project
-#+end_notes
-
-#+ATTR_REVEAL: :frag (appear)
-- enforce a code of conduct
-- provide a place for your community to meet & talk
-- document & enforce processes meticulously
-- be present and friendly
-- empower your contributors
-
-** Keeping the Community motivated
-
-#+begin_notes
-- intrinsic motivation: desire to code just for fun/hobby
-- altruism, including community identification (satisfy need to belong to group)
-- future reward: revenue from selling product, skills, self-marketing, peer recognition
-- personal need: scratch your own itch
-#+end_notes
-
-Retaining contributors
-
-@@html: <img src="./media/contribution_movement.svg" height="300px"/>@@
-
-# #+ATTR_REVEAL: :frag (appear)
-# Keep them motivated!
-
-# #+ATTR_REVEAL: :frag (appear)
-# - intrinsic motivation
-# - altruism
-# - future rewards
-# - personal need
-
-# ** Conflict Resolution
-
-# #+begin_notes
-# - more than 1 human \Rightarrow conflicts
-# #+end_notes
-
-# #+ATTR_REVEAL: :frag appear
-
-
-# #+ATTR_REVEAL: :frag (appear)
-# - resolve quickly to avoid resentment
-# - put rules in place
-# - get help from a people person!
-
-** Conflicts - One Bad Apple can spoil the Barrel
-
-#+begin_notes
-- There *will* be conflicts \Rightarrow resolve to avoid resentment/scaring
-- one bad actor can poison your whole community
-#+end_notes
-
-# #+ATTR_REVEAL: :frag (appear)
-There *will* be conflicts
-
-# from https://upload.wikimedia.org/wikipedia/commons/1/1c/Pomological_Watercolor_POM00003995.jpg
-# public domain
-# #+ATTR_REVEAL: :frag (appear)
-@@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px"/>@@
-
 ** Receiving feedback
 
 #+begin_notes
@@ -336,7 +338,7 @@ unfortunately:
 a thank you never hurt anyone ❤️
 
 
-** Proposing Changes
+* Proposing Changes
 
 #+ATTR_REVEAL: :frag (appear)
 - start small
@@ -357,13 +359,14 @@ a thank you never hurt anyone ❤️
 #+ATTR_REVEAL: :frag appear
 but defer big announcements until it's ready\trade
 
+
 * This all sounds horrible!
 
 #+ATTR_REVEAL: :frag (appear)
-It's a lot of fun
+It's a lot of *fun*
 
 #+ATTR_REVEAL: :frag (appear)
-You will learn a lot
+You will *learn a lot*
 
 #+ATTR_REVEAL: :frag (appear)
 But only delve into Open Source as long as it is fun
