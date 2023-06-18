@@ -297,6 +297,38 @@ There *will* be conflicts
 - *you* must stay your top priority
 
 
+** Receiving feedback
+
+#+begin_notes
+- every feedback valuable: unique insight from different PoV
+- but most feedback you'll get is terrible or not proper feedback
+- you don't have to address every feedback that you receive
+#+end_notes
+#+ATTR_REVEAL: :frag (appear)
+- feedback is a gift
+- thank, absorb and reflect
+- don't defend yourself, adapt and discuss (if appropriate)
+
+#+ATTR_REVEAL: :frag (appear)
+unfortunately:
+#+ATTR_REVEAL: :frag (appear)
+- you will mostly get negative feedback, if *at all*
+- *only* negative feedback can be crushing
+- must train to not be personally bothered
+
+
+** Providing feedback
+
+#+ATTR_REVEAL: :frag (appear)
+- criticize the code, not the person
+- be constructive, clear and fact oriented
+- be positive
+- speak only on your behalf
+
+#+ATTR_REVEAL: :frag (appear)
+a thank you never hurt anyone ❤️
+
+
 * So when should I start?
 #+begin_notes
 - you got one shot at a "public launch" \Rightarrow have a great landing page
@@ -333,50 +365,18 @@ But it's a starting point for your journey
 * Links and Further Reading
 
 #+ATTR_REVEAL: :frag (appear)
-@@html:<i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/everything-you-didnt-learn-at-uni/everything-you-didnt-learn-at-uni.html"><code>dcermak.github.io/everything-you-didnt-learn-at-uni</code></a>@@
-
-#+ATTR_REVEAL: :frag (appear)
 - [[https://un.curl.dev/][uncurled]] by [[https://daniel.haxx.se/][Daniel Stenberg]]
 - motivations for contributing [[https://arxiv.org/abs/2101.10291][arXiv:2101.10291]]
 - [[https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/][Measuring Engagement]] from Mozilla
 - [[https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/][The Open Source Contributor Funnel by Mike McQuaid]]
 
+#+ATTR_REVEAL: :frag (appear)
+@@html:<i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/everything-you-didnt-learn-at-uni/everything-you-didnt-learn-at-uni.html"><code>dcermak.github.io/everything-you-didnt-learn-at-uni</code></a>@@
+
 
 * Questions?
 
 @@html: <img src="./media/qr.svg" height="400px"/>@@
-
-
-** Receiving feedback
-
-#+begin_notes
-- every feedback valuable: unique insight from different PoV
-- but most feedback you'll get is terrible or not proper feedback
-- you don't have to address every feedback that you receive
-#+end_notes
-#+ATTR_REVEAL: :frag (appear)
-- feedback is a gift
-- thank, absorb and reflect
-- don't defend yourself, adapt and discuss (if appropriate)
-
-#+ATTR_REVEAL: :frag (appear)
-unfortunately:
-#+ATTR_REVEAL: :frag (appear)
-- you will mostly get negative feedback, if *at all*
-- *only* negative feedback can be crushing
-- must train to not be personally bothered
-
-
-** Providing feedback
-
-#+ATTR_REVEAL: :frag (appear)
-- criticize the code, not the person
-- be constructive, clear and fact oriented
-- be positive
-- speak only on your behalf
-
-#+ATTR_REVEAL: :frag (appear)
-a thank you never hurt anyone ❤️
 
 
 * Proposing Changes
