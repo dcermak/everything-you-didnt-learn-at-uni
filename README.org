@@ -1,8 +1,11 @@
 * All the Things they didn't teach you at University
 
-This repository contains the slides for the presentation "Everything that they did not teach you at University" held at DevConf.cz 2023.
+This repository contains the slides for the presentation "Everything that they
+did not teach you at University" held at DevConf.cz 2023 and as "(Fast) alles
+was man an der Uni nicht lernt" at the [[https://chemnitzer.linux-tage.de/2024/de/programm/beitrag/322][Chemnitzer Linux Tage 2024]].
 
-You can find the rendered slides here: [[https://dcermak.github.io/everything-you-didnt-learn-at-uni/everything-you-didnt-learn-at-uni.html][dcermak.github.io/everything-you-didnt-learn-at-uni]].
+You can find the rendered slides here:
+[[https://dcermak.github.io/everything-you-didnt-learn-at-uni/everything-you-didnt-learn-at-uni.html][dcermak.github.io/everything-you-didnt-learn-at-uni]].
 
 
 ** Building the slides
