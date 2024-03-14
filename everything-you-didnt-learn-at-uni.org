@@ -29,14 +29,13 @@ Dan Čermák
 
 @@html: <div style="float:center">@@
 @@html: <table class="who-table">@@
-@@html: <tr><td><i class="fab fa-suse"></i></td><td> Software Developer/RelEng/QA @SUSE</td></tr>@@
-@@html: <tr><td><i class="fab fa-fedora"></i></td><td> i3 SIG, Package maintainer</td></tr>@@
-@@html: <tr><td><i class="far fa-heart"></i></td><td> Developer Tools, Testing and Documentation, Home Automation</td></tr>@@
+@@html: <tr class="fragment appear" data-fragment-index=1><td><i class="fab fa-suse"></i></td><td> Software Developer/RelEng/QA @SUSE</td></tr>@@
+@@html: <tr class="fragment appear" data-fragment-index=1><td><i class="fab fa-fedora"></i></td><td> i3 SIG, Package maintainer</td></tr>@@
 @@html: <tr></tr>@@
 @@html: <tr></tr>@@
-@@html: <tr><td><i class="fa-solid fa-globe"></i></td><td> <a href="https://dancermak.name/">https://dancermak.name</a></td></tr>@@
-@@html: <tr><td><i class="fab fa-github"></i></td><td> <a href="https://github.com/dcermak/">dcermak</a></td></tr>@@
-@@html: <tr><td><i class="fab fa-mastodon"></i></td><td> <a href="https://mastodon.social/@Defolos">@Defolos@mastodon.social</a></td></tr>@@
+@@html: <tr class="fragment appear" data-fragment-index=2><td><i class="fa-solid fa-globe"></i></td><td> <a href="https://dancermak.name/">https://dancermak.name</a></td></tr>@@
+@@html: <tr class="fragment appear" data-fragment-index=2><td><i class="fab fa-github"></i></td><td> <a href="https://github.com/dcermak/">dcermak</a></td></tr>@@
+@@html: <tr class="fragment appear" data-fragment-index=2><td><i class="fab fa-mastodon"></i></td><td> <a href="https://mastodon.social/@Defolos">@Defolos@mastodon.social</a></td></tr>@@
 @@html: </table>@@
 @@html: </div>@@
 
@@ -67,18 +66,23 @@ Dan Čermák
 * English is everywhere
 
 
-* Methodology & Tech-Stack
+* Technology
 
-#+ATTR_REVEAL: :frag (appear appear appear appear appear appear) :frag_idx (1 2 3 4 5 6)
+#+begin_notes
 - test things properly in staging, but sometimes you have to patch production
 - real infra is held together by @@html: <i class="fa-solid fa-tape"></i>@@ and 🧙
+#+end_notes
+
+#+ATTR_REVEAL: :frag (appear appear appear appear appear appear) :frag_idx (1 2 3 4 5 6)
+- testing is important and insufficient
+- real infra: @@html: <i class="fa-solid fa-tape"></i>@@ and 🧙
 - =git= is 👑
 - backend: @@html: <i class="fa-brands fa-python"></i>, <i class="fa-brands fa-node-js"></i>, <i class="fa-brands fa-golang"></i>@@
 - frontend: @@html: <i class="fa-brands fa-react"></i>@@
 - enterprise: @@html: <i class="fa-brands fa-java"></i>@@, SAP, Kotlin
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 7
-…some of this will change, some won't…
+…technology will change…
 
 #+ATTR_REVEAL: :frag (appear) :frag_idx 8
 but one thing will *never* change
@@ -91,6 +95,9 @@ you have to work with *people*
 
 #+begin_notes
 - volunteers, paid contributors, students, etc.
+
+transition:
+walk through the various aspects of FLOSS & working with the people
 #+end_notes
 
 #+ATTR_REVEAL: :frag (appear)
@@ -103,13 +110,21 @@ you have to work with *people*
 * How to be a Contributor
 
 #+begin_notes
-- 
+first tackle the parts that make you a good contributor
 #+end_notes
 
 #+ATTR_REVEAL: :frag (appear)
 - Think about the *why*
 - Say hi 👋
 - Start small
+- Don't try changing the world (at first)
+
+** Pick the right project
+
+#+ATTR_REVEAL: :frag (appear)
+- pick something where you have a stake
+- project must *want* contributions
+
 
 ** Community
 
@@ -119,7 +134,8 @@ you have to work with *people*
 - project should make it clear how to contact it & get it touch
   \Rightarrow landing page, have just very few channels and monitor all of them
   if someone joins, you as the maintainer must be made aware of that
-- project must *want* contributions
+
+- contributors come & go
 #+end_notes
 
 #+ATTR_REVEAL: :frag (appear)
@@ -141,7 +157,7 @@ you have to work with *people*
 - asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
 - synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
 - issue/bug/feature tracker(s)
-- *one* place to reach the community
+# - *one* place to reach the community
 
 #+ATTR_REVEAL: :frag appear
 avoid ambiguities!
@@ -154,6 +170,13 @@ Yeah, right
 #+ATTR_REVEAL: :frag (appear)
 - keep it simple
 - be kind to each other
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+There's no bad people
+#+ATTR_REVEAL: :frag (appear)
+(with exceptions)
 
 
 * What it means to be a Maintainer
@@ -174,7 +197,7 @@ Yeah, right
 - licenses/legal
 - project & release management
 
-** Licenses 😱
+** Licenses
 
 #+begin_notes
 - prescriptive: specific rules about usage
@@ -192,6 +215,7 @@ Yeah, right
 
 #+ATTR_REVEAL: :frag (appear)
 👉️ [[https://choosealicense.com/][choosealicense.com]]
+
 
 ** How to make your project popular
 
@@ -215,6 +239,7 @@ Yeah, right
 - more contributors? \Rightarrow get more users!
 #+end_notes
 
+#+ATTR_REVEAL: :frag (appear)
 @@html:<img src="./media/contributor_funnel.svg"></img>@@
 
 ** Recruiting contributors
@@ -233,7 +258,7 @@ Yeah, right
 - past impact does *not* matter, perceived future impact *does*
 - contributors need a vision
 - good onboarding experience encourages further onboarding
-- prompt responses boost the chances of a contributor returning
+- *prompt responses* boost the chances of a contributor returning
 
 
 ** Motivations for contributing
@@ -329,11 +354,10 @@ change over time:
 
 #+ATTR_REVEAL: :frag (appear)
 - enforce a code of conduct
-- provide a place for your community to meet & talk
+- provide *one* place for your community to meet & talk
 - document & enforce processes meticulously
 - be present and friendly
 - empower your contributors
-
 
 ** Conflicts - One Bad Apple can spoil the Barrel
 
@@ -350,6 +374,16 @@ There *will* be conflicts
 # #+ATTR_REVEAL: :frag (appear)
 @@html: <img src="./media/Pomological_Watercolor_POM00003995.jpg" height="400px" class="fragment appear" data-fragment-index=1/>@@
 
+** Rules enforcement & automation
+
+#+begin_notes
+- automate what can be automated
+- people tend to accept machine enforced rules more than human enforced rules
+- careful: cannot solve people problems with technology!
+#+end_notes
+
+@@html: <img src="./media/computer-says-no.svg" class="fragment appear" data-fragment-index=1/>@@
+
 
 * Take care of yourself
 
@@ -361,6 +395,8 @@ There *will* be conflicts
 #+ATTR_REVEAL: :frag (appear)
 - stay true to yourself & your motivation
 - *you* must stay your top priority
+
+@@html:<br>@@
 
 #+ATTR_REVEAL: :frag (appear)
 1. Learn to say *no*
@@ -452,12 +488,11 @@ But it's a starting point for your journey
 @@html: <img src="./media/qr.svg" height="400px"/>@@
 
 
-* Proposing Changes
+# * Proposing Changes
 
-#+ATTR_REVEAL: :frag (appear)
-- start small
-- have a vision
-- battle versus inertia
-- address fears of all stakeholders
-- get early adopters and early wins
-
+# #+ATTR_REVEAL: :frag (appear)
+# - start small
+# - have a vision
+# - battle versus inertia
+# - address fears of all stakeholders
+# - get early adopters and early wins
