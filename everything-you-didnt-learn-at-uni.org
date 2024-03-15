@@ -252,7 +252,7 @@ There's no bad people
 - respond later than 7d \Rightarrow you are not seeing them ever again
 - suggest another issue to work on
 #+end_notes
-@@html:<img src="./media/mozilla_impact_study.png"></img>@@
+@@html:<img src="./media/mozilla_impact_study.png" class="fragment appear" data-fragment-index=1></img>@@
 
 #+ATTR_REVEAL: :frag (appear)
 - past impact does *not* matter, perceived future impact *does*
@@ -300,6 +300,8 @@ change over time:
 - altruism, including community identification (satisfy need to belong to group)
 - future reward: revenue from selling product, skills, self-marketing, peer recognition
 - personal need: scratch your own itch
+
+- transition: people do it for others -> build a nice community
 #+end_notes
 
 # Retaining contributors
@@ -438,16 +440,16 @@ unfortunately:
 a thank you never hurt anyone ❤️
 
 
-* So when should I start?
-#+begin_notes
-- you got one shot at a "public launch" \Rightarrow have a great landing page
-#+end_notes
+# * So when should I start?
+# #+begin_notes
+# - you got one shot at a "public launch" \Rightarrow have a great landing page
+# #+end_notes
 
-#+ATTR_REVEAL: :frag appear
-*Now*
+# #+ATTR_REVEAL: :frag appear
+# *Now*
 
-#+ATTR_REVEAL: :frag appear
-but defer big announcements until it's ready\trade
+# #+ATTR_REVEAL: :frag appear
+# but defer big announcements until it's ready\trade
 
 
 * This all sounds horrible!
@@ -462,13 +464,13 @@ You will *learn a lot*
 But only delve into Open Source as long as it is fun
 
 
-* So was that all the things they didn't teach me at University?
+# * So was that all the things they didn't teach me at University?
 
-#+ATTR_REVEAL: :frag (appear)
-Of course not!
+# #+ATTR_REVEAL: :frag (appear)
+# Of course not!
 
-#+ATTR_REVEAL: :frag (appear)
-But it's a starting point for your journey
+# #+ATTR_REVEAL: :frag (appear)
+# But it's a starting point for your journey
 
 
 * Links and Further Reading
