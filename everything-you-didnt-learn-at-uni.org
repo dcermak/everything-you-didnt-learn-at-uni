@@ -155,7 +155,7 @@ first tackle the parts that make you a good contributor
 
 #+ATTR_REVEAL: :frag (appear)
 - asynchronous: @@html: <i class="fa-regular fa-envelope"></i> email, <i class="fa-brands fa-discourse"></i> forums@@
-- synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-regular fa-headset"></i> voice/video chat@@
+- synchronous: @@html: <i class="fa-regular fa-comments"></i> chat, <i class="fa-solid fa-headset"></i> voice/video chat@@
 - issue/bug/feature tracker(s)
 # - *one* place to reach the community
 
