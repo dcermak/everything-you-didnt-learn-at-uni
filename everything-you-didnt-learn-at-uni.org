@@ -114,10 +114,10 @@ first tackle the parts that make you a good contributor
 #+end_notes
 
 #+ATTR_REVEAL: :frag (appear)
-- Think about the *why*
-- Say hi 👋
-- Start small
-- Don't try changing the world (at first)
+- think about the *why*
+- say hi 👋
+- start small
+- don't try changing the world (at first)
 
 ** Pick the right project
 
@@ -416,7 +416,6 @@ There *will* be conflicts
 - you don't have to address every feedback that you receive
 #+end_notes
 #+ATTR_REVEAL: :frag (appear)
-- feedback is a gift
 - thank, absorb and reflect
 - don't defend yourself, adapt and discuss (if appropriate)
 
@@ -461,7 +460,7 @@ It's a lot of *fun*
 You will *learn a lot*
 
 #+ATTR_REVEAL: :frag (appear)
-But only delve into Open Source as long as it is fun
+But only delve into open source as long as it is fun
 
 
 # * So was that all the things they didn't teach me at University?
